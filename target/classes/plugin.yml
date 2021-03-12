@@ -1,0 +1,9 @@
+main: org.explorersbay.dungeons.Main
+name: ExplorerDungeons
+version: Alpha-1.0
+description: The Explorer's Bay Dungeons plugin.
+softdepend: [ PlaceholderAPI ]
+commands:
+  dungeons:
+    description: The main command for the Explorer's Bay Dungeons plugin.
+    aliases: [ dungeon, edungeons, explorerdungeons ]
