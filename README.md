@@ -7,15 +7,18 @@ This has been developed as a proof of concept, with no intent of being added
 to a live server, further optimisations and changes will be made for a
 final release version to any live server.
 
-As it stands, this contains the following:
+# As it stands, this contains the following:
 
 Chest restocker for dungeons
 Dungeon instance handler
+
 Dungeon mob spawner/custom mobs
+
 Custom loot tables
+
 Infinite dungeon support
   
-Things that will be included before the end:
+# Things that will be included before the end:
 
 A gui selection and editing system
 Optional respawn timers for mobs
