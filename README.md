@@ -1,6 +1,6 @@
 # ExplorersDungeons
 
-ExplorersDungeons is a Dungeons plugin being developed for Explorer's Bay.
+ExplorersDungeons is a Dungeons plugin
 This project is open-source for the purposes of review and improvement.
 
 This has been developed as a proof of concept, with no intent of being added
