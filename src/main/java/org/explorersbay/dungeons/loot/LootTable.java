@@ -1,5 +1,7 @@
 package org.explorersbay.dungeons.loot;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.explorersbay.dungeons.Main;
 
 import java.util.ArrayList;
@@ -17,12 +19,21 @@ public class LootTable {
         MOB, CHEST
     }
 
-    private Type type;
-    private List<LootItem> items = new ArrayList<LootItem>();
-    private Main.Difficulty difficulty;
+    @Getter @Setter private Type type;
+    @Getter @Setter private List<LootItem> items = new ArrayList<LootItem>();
+    @Getter @Setter private Main.Difficulty difficulty;
+    @Getter @Setter private String name;
 
     public LootTable(Main.Difficulty difficulty, Type type) {
         this.difficulty = difficulty;
+    }
+
+    public void addLootItem(LootItem item) {
+        items.add(item);
+    }
+
+    public void removeLootItem(LootItem item) {
+        items.remove(item);
     }
 
 }

@@ -1,0 +1,17 @@
+easy:
+  #Current difficulties are EASY, MEDIUM & HARD.
+  difficulty: EASY
+  type: MOB
+  drops:
+    1:
+      material: DIAMOND_SWORD
+      enchantments:
+        - 'DAMAGE_ALL;1'
+      amount: 1
+      item_flags:
+        - 'HIDE_ENCHANTS'
+      glowing: false
+      unbreakable: true
+      name: '&aEasy Drop Table'
+      lore:
+        - '&f&l* &7This is the easy drop table.'

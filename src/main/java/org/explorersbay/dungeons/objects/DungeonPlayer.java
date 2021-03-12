@@ -38,6 +38,15 @@ public class DungeonPlayer {
 
     public void leaveDungeon() {
         this.currentDungeon = null;
+        teleportToLastLocation();
+    }
+
+    public void teleportToLastLocation() {
+        if (player != null) {
+            if (lastLocation != null) {
+                player.teleport(lastLocation);
+            }
+        }
     }
 
 }

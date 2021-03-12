@@ -1,0 +1,25 @@
+mobs:
+  skeleton-lowlevel:
+    difficulty: EASY
+    health: 10
+    name: "&e&lSkeleton &7[Level 1]"
+    particle: SPAWNER_FLAMES
+    entity_type: SKELETON
+    armour:
+      head:
+        enabled: true
+        material: IRON_HELMET
+        enchantments:
+          - 'PROTECTION_ENVIRONMENTAL;1'
+      chestplate:
+        enabled: false
+        material: IRON_CHESTPLATE
+        enchantments: []
+      leggings:
+        enabled: false
+        material: IRON_LEGGINGS
+        enchantments: []
+      boots:
+        enabled: false
+        material: IRON_BOOTS
+        enchantments: []
